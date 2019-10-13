@@ -1,3 +1,19 @@
 # verilog
-This is a code dump / practice code dump for my verilog / VHDL Programming language.
 
+In electronics, a Hardware Description Language or HDL is any language from a class of computer languages for formal description of electronic circuits. It can describe the circuit's operation, its design & organization, & tests to verify its operation by means of simulation. 
+HDLs are standard text-based expressions of the spatial & temporal structure & behavior of electronic systems. In contrast to a software programming language, HDL syntax & semantics include explicit notations for expressing time & concurrency, which are the primary attributes of hardware.
+Languages whose only characteristic  is to express circuit connectivity between a hierarchy of blocks are properly classified as netlist languages.
+HDLs are used to write executable specifications of some piece of hardware. A simulation program, designed to implement the underlying semantics of the language statements, coupled with simulating the progress of time, provides the hardware designer with the ability to model a piece of hardware before it is created physically. It is this executability that gives HDLs the illusion of being programming languages. Simulators capable of supporting discrete-event & continuous-time (analog) modeling exist, & HDLs targeted for each are available.
+It is certainly possible to represent hardware semantics using traditional programming languages such as C++, although to function such programs must be augmented with extensive & unwieldy class libraries. Primarily, however,software programming languages do not include any capability for explicitly expressing time & this is why they do not function as a hardware description language.
+Using the proper subset of virtually any language, a software program called a synthesizer can infer hardware logic operations from the language statements & produce an equivalent netlist of generic hardware primitives to implement the specified behavior. This typically requires the synthesizer to ignore the expression of any timing constructs in the text.
+The two most widely-used & well-supported HDL varieties used in industry are:
+   VHDL (Very High Speed Integrated Circuit HDL)
+   Verilog HDL
+   
+The latter being much popular lately among many design engineers.
+
+#VERILOG HDL
+Verilog is a hardware description language (HDL) used to model electronic systems. The language supports the design, verification, & implementation of analog, digital, & mixed-signal circuits at various levels of abstraction.
+The language differs in some fundamental ways. Verilog uses Begin/End instead of curly braces to define a block of code. The concept of time, so important to a HDL won't be found in C.
+The language differs from a conventional programming language in that the execution of statements is not strictly sequential. A Verilog design consists of a hierarchy of modules. Modules are defined with a set of input, output, & bidirectional ports. Internally, a module contains a list of wires & registers. Concurrent & sequential statements define the behavior of the module by defining the relationships between the ports, wires, & registers. Sequential statements are placed inside a begin/end block & executed in sequential order within the block. But all concurrent statements & all begin/end blocks in the design are executed in parallel, qualifying Verilog as a Dataflow language. A module can also contain one or more instances of another module to define subbehavior.
+A subset of statements in the language is synthesizable. If the modules in a design contain only synthesizable statements, software can be used to transform or synthesize the design into a netlist that describes the basic components & connections to be implemented in hardware. The netlist may then be transformed into, for example, a form describing the standard cells of an integrated circuit (e.g. an ASIC) or a bitstream for a programmable logic device (e.g. a FPGA).
