@@ -1,0 +1,11 @@
+NET "Din[3]" LOC = P80;
+NET "Din[2]" LOC = P81;
+NET "Din[1]" LOC = P82;
+NET "Din[0]" LOC = P84;
+
+NET "Sel[0]" LOC = P92;
+NET "Sel[1]" LOC = P85;
+
+NET "Dout" LOC = P93;
+
+// Refer to the port list in FRC Chart 
