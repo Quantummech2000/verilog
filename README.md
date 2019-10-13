@@ -12,7 +12,7 @@ The two most widely-used & well-supported HDL varieties used in industry are:
    
 The latter being much popular lately among many design engineers.
 
-#VERILOG HDL
+# VERILOG HDL
 Verilog is a hardware description language (HDL) used to model electronic systems. The language supports the design, verification, & implementation of analog, digital, & mixed-signal circuits at various levels of abstraction.
 The language differs in some fundamental ways. Verilog uses Begin/End instead of curly braces to define a block of code. The concept of time, so important to a HDL won't be found in C.
 The language differs from a conventional programming language in that the execution of statements is not strictly sequential. A Verilog design consists of a hierarchy of modules. Modules are defined with a set of input, output, & bidirectional ports. Internally, a module contains a list of wires & registers. Concurrent & sequential statements define the behavior of the module by defining the relationships between the ports, wires, & registers. Sequential statements are placed inside a begin/end block & executed in sequential order within the block. But all concurrent statements & all begin/end blocks in the design are executed in parallel, qualifying Verilog as a Dataflow language. A module can also contain one or more instances of another module to define subbehavior.
