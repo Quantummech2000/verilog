@@ -1,4 +1,4 @@
-# verilog
+# Hardware Description Language
 
 In electronics, a Hardware Description Language or HDL is any language from a class of computer languages for formal description of electronic circuits. It can describe the circuit's operation, its design & organization, & tests to verify its operation by means of simulation. 
 HDLs are standard text-based expressions of the spatial & temporal structure & behavior of electronic systems. In contrast to a software programming language, HDL syntax & semantics include explicit notations for expressing time & concurrency, which are the primary attributes of hardware.
